@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAPHIRÉA LUXURY CANDLES</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #07152f;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 24px 12px;
+      border-bottom: 1px solid #c9a65b;
+      color: #e5c779;
+      letter-spacing: 3px;
+    }
+    .hero { padding: 55px 20px; }
+    .hero img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 12px;
+    }
+    h1 { font-size: 34px; color: #e5c779; }
+    p { line-height: 1.7; }
+    .price { font-size: 28px; color: #e5c779; }
+    button {
+      background: #d8b568;
+      color: #07152f;
+      border: 0;
+      padding: 15px 25px;
+      font-size: 16px;
+      border-radius: 4px;
+      margin: 10px;
+    }
+    footer {
+      padding: 25px;
+      color: #e5c779;
+      border-top: 1px solid #c9a65b;
+    }
+  </style>
+</head>
+<body>
+  <header>SAPHIRÉA LUXURY CANDLES</header>
+  <main class="hero">
+    <h1>Luxury in Every Flame</h1>
+    <p>More than a candle… It’s a feeling.</p>
+    <h2>The Signature Candle</h2>
+    <p>Elegant blue glass. Golden details. An unforgettable atmosphere.</p>
+    <p class="price">$100.00</p>
+    <button onclick="alert('Online checkout is coming soon!')">
+      Discover Our Candle
+    </button>
+    <p lang="fr">Plus qu’une bougie… C’est une émotion.</p>
+    <p lang="fr">Élégance, douceur et luxe dans chaque flamme.</p>
+  </main>
+  <footer>© 2026 SAPHIRÉA LUXURY CANDLES</footer>
+</body>
+</html>
